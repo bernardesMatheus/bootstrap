@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Import CSS via CDN (acima do <title></title> -->
+		<link
+        href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css"
+        rel="stylesheet"
+        integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor"
+        crossorigin="anonymous"
+    />
+    <title>Padding</title>
+    
+    <style>
+        h1, p{
+            border: 1px solid red;
+        }
+    </style>
+</head>
+
+<!--
+    Classes Margin:
+    p -> nos permite adicionar uma margem ao elemento html
+    pt -> padding-top
+    pb -> padding-bottom
+    ps-> padding-left
+    pe -> padding-right
+    px -> padding no eixo x (left right)
+    py -> padding no eixo y (top bottom)
+
+    size:
+    0 -> elimina o valor
+    1 à 5 -> seta tamanhos pré definidos pelo bootstrap
+    auto -> seta o espaçamento automático
+-->
+
+
+<body class="p-3">
+    <h1 class="p-4">Título</h1>
+    <p class="px-2 pt-5">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Fugit, obcaecati esse. Obcaecati, ullam. Quibusdam voluptatum cupiditate nihil vel velit sed labore quasi minus nobis numquam? Aperiam, expedita voluptatibus? Consequuntur, at.</p>
+
+    <!-- Import Js via CDN (acima do </body>)  -->
+		<script
+        src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
+        crossorigin="anonymous"
+    ></script>
+</body>
+</html>
