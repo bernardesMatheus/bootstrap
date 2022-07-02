@@ -12,12 +12,48 @@
 			crossorigin="anonymous"
 		/>
 		<title>Bootstrap</title>
+
+		<style>
+			section {
+				height: 800px;
+			}
+
+			div {
+				background: linear-gradient(to bottom right, #a600ff, #ff00e6);
+				width: 200px;
+				height: 200px;
+			}
+
+            #divMenor{
+                height: 100px;
+            }
+		</style>
 	</head>
+    <!--
+        Classes FlexBox:
+
+        .flex-row
+        .flex-column
+
+        .justify-content-start
+        .justify-content-end
+        .justify-content-center
+        .justify-content-between
+        .justify-content-around
+        .justify-content-evenly
+
+        .align-items-start
+        .align-items-end
+        .align-items-center
+        .align-items-baseline
+    -->
 	<body>
+		<section class="bg-light d-flex flex-row justify-content-around align-items-baseline">
+			<div class="m-3 rounded-circle"></div>
+			<div id="divMenor" class="m-3 rounded-circle"></div>
+			<div class="m-3 rounded-circle"></div>
+		</section>
 
-
-
-        
 		<!-- Import Js via CDN (acima do </body>)  -->
 		<script
 			src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
